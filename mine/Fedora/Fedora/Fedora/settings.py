@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'people',
     'artifacts',
-    'books'
+    'books',
+    'vehicles'
 ]
 
 MIDDLEWARE = [
