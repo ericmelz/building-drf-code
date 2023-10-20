@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'people',
     'artifacts',
     'books',
-    'vehicles'
+    'vehicles',
+    'api'
 ]
 
 MIDDLEWARE = [
