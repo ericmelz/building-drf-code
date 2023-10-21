@@ -12,4 +12,5 @@ class TimelineSerializer(serializers.ModelSerializer):
     entries = EntrySerializer(source='entry_set', many=True, read_only=True)
 
     class Meta:
-        model = Timelinefields = ['id', 'name', 'entries']
+        model = Timeline
+        fields = ['id', 'name', 'entries']
